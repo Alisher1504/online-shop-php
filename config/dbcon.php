@@ -9,7 +9,8 @@ $con = mysqli_connect($host, $username, $password, $dbname);
 
 if(!$con){
     die("error: ". mysqli_connect_error());
-} else {
+} 
+else {
     echo "connected successfully";
 }
 
